@@ -1,0 +1,33 @@
+# Python
+*.pyc
+*.pyo
+__pycache__/
+
+# Django
+*.log
+#.sqlite3
+#db.sqlite3
+#/media
+/staticfiles
+
+# Папка с виртуальным окружением
+venv/
+env/
+ENV/
+.venv/
+
+# Конфиденциальные файлы
+*.env
+*.local
+
+# IDE и редакторы
+.vscode/
+.idea/
+*.swp
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# Другие временные файлы
+*.tmp
